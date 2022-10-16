@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body {
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+}
+
+/* HEADER */
+.header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    margin: 50px;
+}
+
+.btn-type {
+    background-color: #333;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.link-web {
+    text-decoration: none;
+    color: #333;
+}
+
+#bar-name {
+    text-transform: uppercase;
+	background: linear-gradient(to right, #dd1818 0%, #333333 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* NAVBAR */
+
+#navbar {
+    overflow: hidden;
+    background-color: #333333;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid #dd1818;
+}
+
+/* CONTENT */
+
+.content {
+    width: 60%;
+    height: auto;
+    padding: 50px;  
+    margin: auto;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.col-content {
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+
+    .header {
+        display: block;
+    }
+
+    #navbar {
+        overflow: auto;
+    }
+}
